@@ -26,10 +26,12 @@ https://rapidapi.com/smodin/api/plagiarism-checker-and-auto-citation-generator-m
 ## Baza podataka
 ### Sveučilišta
 - atributi sveučilišta: SifraSveucilista, Mjesto, ImeSveucilista, 
+### Odjel
+- SifraOdjela, ImeOdjela, SifraSveucilista, Adresa
 #### Kolegiji
-- SifraKolegija, NazivKolegija, Predavac, SifraTeme, SifraSveucilista,
+- SifraKolegija, NazivKolegija, Predavac, SifraTeme, SifraSveucilista, Semestar
 ### Online tečajevi
-- SifraIzvodaca, WebStranica
+- SifraIzvodaca, WebStranica, Naziv, SifraTeme
 #### Materijali
 - SifraMaterijala, NazivTecaja, SifraTeme, SifraIzvodaca
 ### Korisnik
